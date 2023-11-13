@@ -26,7 +26,7 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 BOT_START_TIME = time()
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/1a957545521a0aaaffa05.jpg https://telegra.ph/file/460249396bb64a36f6fba.jpg https://telegra.ph/file/f37ff443786e299c259bd.jpg https://telegra.ph/file/43a61973a55990fed99b9.jpg https://telegra.ph/file/6a3b00ed2b5c1f3d28506.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/3e8a3865af813840144d4.jpg https://telegra.ph/file/abec213a015b543f1d784.jpg https://telegra.ph/file/ae2e7eb577a47fbe0c921.jpg https://telegra.ph/file/2b45e67c1fbd49901c3a0.jpg')).split()
 PICSS = (environ.get('PICSS', 'https://telegra.ph/file/ae31cc5295e22b1670dbe.jpg https://telegra.ph/file/ae31cc5295e22b1670dbe.jpg')).split()
 PGIT = (environ.get('PGIT', 'https://telegra.ph/file/c56a52fe52431798a9f15.jpg https://telegra.ph/file/c56a52fe52431798a9f15.jpg')).split()
 PSTS = (environ.get('PSTS', 'https://telegra.ph/file/94f120f79cdfadfc7cda5.jpg https://telegra.ph/file/94f120f79cdfadfc7cda5.jpg')).split()
